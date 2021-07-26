@@ -10,7 +10,7 @@
     
     <div id="nav">
         <ul>
-            <li class="game1"><a href="">Home</a></li>
+            <li class="game1"><a href="{% url 'home' %}">MaakCollection</a></li>
             <li class="game"><a href="">Signup</a></li>
             <li class="game"><a href="">Login</a></li>
             <li class="game"><a href="">Products</a></li>
@@ -19,6 +19,10 @@
     </div>
 
     <div id="body_space">
+        <div>
+            {% block content %}
+            {% endblock %}
+        </div>
 
 
     <h1>MaakCollection</h1>
