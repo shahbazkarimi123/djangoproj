@@ -1,32 +1,19 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="{% static 'home_css/css_style.css' %}">
-</head>
-<body>
-    
-    <div id="nav">
-        <ul>
-            <li class="game1"><a href="{% url 'home' %}">MaakCollection</a></li>
-            <li class="game"><a href="">Signup</a></li>
-            <li class="game"><a href="">Login</a></li>
-            <li class="game"><a href="">Products</a></li>
-            
-        </ul>
+{% extends "account/base.html" %}
+{% block content %}
+
+    <div id="header">
+
     </div>
+    <div id="navbar">
 
-    <div id="body_space">
-        <div>
-            {% block content %}
-            {% endblock %}
-        </div>
-
-
+    </div>
+    <div class="sideright">
+        <h2>lecture Dates</h2>
+        <p>kldsjf jasfdasfijas fjasfjsadf </p>
+        <p>jfdlsfjoa sdfasiodjfsdfhjas fdf</p>
+    </div>
     <h1>MaakCollection</h1>
-    <img src="{% static 'image/wallet.jpg' %}">
+    
 
     <p>what isflskjf if;asfmjs ifusjflkjasf fuas;fkmdsfksa fiufsldfmjls fjsifusdd fs;lkjf 
         sdfusafjsmf;lskjf s9fusafljkasf sadifousdfljsafl uds8ifusaf;osaijf 
@@ -35,7 +22,6 @@
     </p>
 
 
-    </div>
 
-</body>
-</html>
+
+{% endblock %}

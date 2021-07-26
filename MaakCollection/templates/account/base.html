@@ -1,16 +1,29 @@
-{% extends "home/home_app.html" %}
-
-{% block content %}
-
-    <div id="header">
-
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'home_css/css_style.css' %}">
+</head>
+<body>
+    
+    <div id="nav">
+        <ul>
+            <li class="game1"><a href="{% url 'home' %}">MaakCollection</a></li>
+            <li class="game"><a href="">Signup</a></li>
+            <li class="game"><a href="{% url 'login' %}">Login</a></li>
+            <li class="game"><a href="{% url 'product' %}">Products</a></li>
+            
+        </ul>
     </div>
-    <div id="navbar">
 
+    <div id="body_space">
+        <div>
+            {% block content %}
+            {% endblock %}
+        </div>
     </div>
-    <div class="sideright">
-        <h2>lecture Dates</h2>
-        <p>kldsjf jasfdasfijas fjasfjsadf </p>
-        <p>jfdlsfjoa sdfasiodjfsdfhjas fdf</p>
-    </div>
-{% endblock %}
+
+</body>
+</html>

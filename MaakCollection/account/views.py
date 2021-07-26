@@ -5,3 +5,10 @@ from django.shortcuts import render
 
 def base(request):
     return render(request, 'account/base.html')
+
+
+def login(request):
+    return render(request, 'account/login.html')
+
+def signup(request):
+    return render(request, 'account/signup.html')
