@@ -1,5 +1,5 @@
 #log{
-    background-color: chartreuse;
+    background-color: #181818;
     width: 300px;
     height: 400px;
     margin-top: 10%;
@@ -22,4 +22,9 @@
 .sub:hover{
     background-color: lightcoral;
 
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
