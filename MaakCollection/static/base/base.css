@@ -1,0 +1,19 @@
+body{
+    background-color: chartreuse;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+
+}
+#header{
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+}
+#navbar{
+    background-color: #5c755e;
+    margin: 10px;
+    height: 35px;
+    border-radius: 5px;
+}
