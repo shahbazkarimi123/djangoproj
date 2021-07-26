@@ -1,0 +1,25 @@
+#log{
+    background-color: chartreuse;
+    width: 300px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 40%;
+    border: 3px double darkkhaki;
+
+}
+#log form{
+    text-align: center;
+    padding-top: 50px;
+}
+.sub{
+    background-color: darkred;
+    border: 2px solid darksalmon;
+    width: 30%;
+    font-weight: bold;
+    font-size: 14px;
+    height: 30px;
+}
+.sub:hover{
+    background-color: lightcoral;
+
+}
