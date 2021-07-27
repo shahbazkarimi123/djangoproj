@@ -11,14 +11,14 @@ def base(request):
     return render(request, 'account/base.html')
 
 
-def login(request):
+def login_user(request):
     if request.method == "POST":
         # Get the post parameters
         uname = request.POST['uname']
         pass1 = request.POST['pass1']
-        user1 = authenticate(username=uname, password=pass1)
-        if user1 is not None:
-            login(user1)
+        user_Permission = authenticate(username=uname, password=pass1)
+        if user_Permission is not None:
+            login(request, user_Permission)
             messages.success(request, "Successfully logged in.")
             return redirect('home')
         else:
