@@ -2,7 +2,7 @@
 
 {% block content %}
 <div id="log">
-    <form method="POST" action="">
+    <form method="POST" action="{% url 'login' %}">
         {% csrf_token %}
         <div>
             <h1>LOGIN</h1>

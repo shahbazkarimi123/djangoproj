@@ -1,0 +1,23 @@
+#sin{
+    background-color: #669999;
+    width: 30%;
+    height: 550px;
+    margin-top: 7%;
+    margin-left:35%;
+    margin-right: 35%;
+    border: 3px solid black;
+
+}
+#sin form{
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+.sub:hover{
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    font-weight: bold;
+
+}
