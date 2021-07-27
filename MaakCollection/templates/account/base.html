@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="{% static 'home_css/css_style.css' %}"/>
     <link rel="stylesheet" href="{% static 'account/login.css' %}"/>
     <link rel="stylesheet" herf="{% static 'base/base.html' %}"/>
+    <link rel="stylesheet" href="{% static 'account/signin.css'%}"/>
 </head>
 <body>
     
     <div id="nav">
         <ul>
             <li class="game1"><a href="{% url 'home' %}">MaakCollection</a></li>
-            <li class="game"><a href="">Signup</a></li>
+            <li class="game"><a href="{% url 'signin' %}">Signin</a></li>
             <li class="game"><a href="{% url 'login' %}">Login</a></li>
             <li class="game"><a href="{% url 'product' %}">Products</a></li>
             

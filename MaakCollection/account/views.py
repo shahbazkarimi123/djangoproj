@@ -8,7 +8,9 @@ def base(request):
 
 
 def login(request):
+    
     return render(request, 'account/login.html')
 
-def signup(request):
-    return render(request, 'account/signup.html')
+def signin(request):
+    i
+    return render(request, 'account/signin.html')
