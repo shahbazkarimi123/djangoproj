@@ -8,6 +8,7 @@ class Webpage(models.Model):
     category = models.ForeignKey(Topic,on_delete=models.CASCADE)
     name = models.CharField(max_length=264)
     url = models.URLField()
+    
 
     def __str__(self):
         return self.name
