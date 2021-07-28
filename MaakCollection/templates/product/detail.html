@@ -7,13 +7,16 @@
 </div>
 
 {% endfor %}
-what
+
 {% for i in product %}
 <br><br>
 {{i.title}}
 <br>
 {{i.body}}
 <br><br>
+{{i.time}}
+<br>
+{{i.url}}
 <img src="{{ i.icon.url }}" alt="png">
 {% endfor %}
 

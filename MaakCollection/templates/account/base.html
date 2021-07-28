@@ -6,7 +6,7 @@
     <title>{% block title %} {% endblock %} | Home</title>
     <link rel="stylesheet" href="{% static 'home_css/css_style.css' %}"/>
     <link rel="stylesheet" href="{% static 'account/login.css' %}"/>
-    <link rel="stylesheet" herf="{% static 'base/base.html' %}"/>
+    <link rel="stylesheet" herf="{% static 'base/base.css' %}"/>
     <link rel="stylesheet" href="{% static 'account/signin.css'%}"/>
 </head>
 <body>
@@ -33,6 +33,13 @@
             {% block content %}
             {% endblock %}
         </div>
+    </div>
+    <div id="footer_id">
+        <footer>
+            about
+            <br>
+            contect
+        </footer>
     </div>
 
 </body>

@@ -28,7 +28,7 @@ def create(request):
     else:
         return render(request, 'product/create.html')
 
-
+@login_required(login_url='/account/login')
 def detail(request):
     products = Product.objects.all()
     n = len(products)
