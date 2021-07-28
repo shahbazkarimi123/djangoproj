@@ -1,0 +1,20 @@
+{% extends 'account/base.html' %}
+{% block title %}Product{% endblock %}
+{% block content %}
+{% for i in range %}
+<div>
+    {{i}}
+</div>
+
+{% endfor %}
+what
+{% for i in product %}
+<br><br>
+{{i.title}}
+<br>
+{{i.body}}
+<br><br>
+<img src="{{ i.icon.url }}" alt="png">
+{% endfor %}
+
+{% endblock %}
