@@ -60,7 +60,19 @@ body{
     margin-left: 3%;
     margin-right: 3%;
 }
+/*Footer*/
 
 #footer_id{
     background-color: black;
+    margin-top: 30px;
+}
+.footer_text{
+    color: white;
+    
+}
+.footer_text a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    margin-left: 3%;
 }
